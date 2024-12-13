@@ -13,7 +13,8 @@ body {
 .matrix-img {
   width: 100%;
 }
-.matrix .matrix-link {
+.matrix
+.matrix-link {
   font-family: fantasy, cursive;
 }
 
@@ -128,7 +129,8 @@ input,button {
 }
 
 /* Completed */
-#completed-tasks > .list__item-label {
+#completed-tasks
+> .list__item-label {
   text-decoration: line-through;
   color: #888;
 }
@@ -138,11 +140,14 @@ input,button {
   display: none;
 }
 
-.list__item-editMode input[type="text"] {
+.list__item-editMode
+.list__item-input
+{
   display: inline-block;
   width: 224px
 }
 
-.list__item-editMode label {
+.list__item-editMode
+.list__item-label {
   display: none;
 }
