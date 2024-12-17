@@ -1,13 +1,8 @@
 /* Basic Style */
-body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
-}
-
-input,
-button {
-  outline: none;
 }
 
 .wrapper {
